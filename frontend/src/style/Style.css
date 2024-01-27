@@ -1,0 +1,59 @@
+.main{
+    background-color: white;
+    text-align: center;
+    padding: 2%; /* Adjust padding as needed */
+    border: 1px solid gray;
+    margin: 0 auto; /* Center the div horizontally */
+    max-width: 25%; /* Adjust maximum width as needed */
+}
+.inputBox{
+    padding: 5px;
+    border: 1px solid ;
+    border-radius: 2px;
+    font-size: 14px;
+    outline: none;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* Table.css */
+
+.table-container {
+    margin: 20px auto;
+    width: 60%;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.table th, .table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+    background-color: #f2f2f2;
+}
